@@ -5,5 +5,11 @@ class Vigenere:
     def encrypt(self, secret, message):
         pass
     
-    def decrypt(self, secret, message);
+    def decrypt(self, secret, message):
         pass
+    
+def main():
+    pass
+
+if __name__ == "__main__":
+    main()
