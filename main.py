@@ -2,7 +2,8 @@ from vigenere import Vigenere
     
 def main():
     # try:
-        vigenere = Vigenere("ram") # you can use shift value from user also
+        # vigenere = Vigenere("ram") # you can use shift value from user also
+        vigenere = Vigenere("KEY") # you can use shift value from user also
         choice = int(input("Choose mode: \n1. Encrypt \n2. Decrypt\n: "))
         if choice == 1:
             message = input("Enter the message to encrypt: ")
